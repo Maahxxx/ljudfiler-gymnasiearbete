@@ -1,28 +1,89 @@
-#downloadbutton1 {
+
+body {
+    overflow-x: hidden;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .header {
+    background-color:#D93D59;
+    color: white;
+    padding: 15px;
+  }
+
+  
+
+.row1 {
+    display: flex;
+}
+
+.responimg {
+    flex:33.3%;
+    padding: 5px;
+    height: auto;
+    max-width: 100%;
+}
+
+
+.downloadbutton1 {
     width: 30vh;
-    height: 5vh;
-    background-color: black;
+    height: 4.5vh;
+    background-color: #D93D59;
     border: none;
     border-radius: 1px;
     text-decoration: none;
     position: relative;
-    top: 5px;
+    bottom: 8px;
+    opacity: 0.7;
+    transition: 0.3s;
+    
+}
+
+.downloadbutton1:hover {
+    opacity: 1;
 }
 
 
-#downloadlink {
+.downloadlink {
     text-decoration: none;
     color: white;
-}
-
-#rapport{
-    height: 15vh;
     width: 30vh;
-    border: 1px solid red;
+    height: 5vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 
-#laddaner {
+.rapport{
+    height: 11.5vh;
+    width: 30vh;
+    text-align: center;
+}
+
+
+.laddaner {
     color: black;
-    font-size: 24px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    color: white;
+  }
+
+  .footertext1 {
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  .footertext2 {
+      font-size: 13px;
+      padding: 10px;
+  }
