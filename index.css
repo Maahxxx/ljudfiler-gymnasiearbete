@@ -3,6 +3,11 @@ body {
     overflow-x: hidden;
 }
 
+* {
+    box-sizing: border-box;
+  }
+  
+
 html {
     font-family: 'Roboto', sans-serif;
   }
@@ -76,6 +81,7 @@ html {
     height: 10%;
     background-color: black;
     color: white;
+    padding: 10px;
   }
 
   .footertext1 {
@@ -85,5 +91,5 @@ html {
 
   .footertext2 {
       font-size: 13px;
-      padding: 10px;
+      padding: -5px;
   }

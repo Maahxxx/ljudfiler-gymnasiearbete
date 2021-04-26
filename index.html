@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="mediathing.css"></link>
+    <link rel="stylesheet" href="stuff.css"></link>
 </head>
 <body>
 
@@ -18,19 +19,35 @@
     </div>
         
     <div class="row1">
-        <div class="col-4 flacwav">
-            <img src="pictures/flacwav.png" class="responimg" >
-        </div>
-    
-        <div class="col-4 flacwav">
-            <img src="pictures/flacmp3.png"  class="responimg" >
+        
+        <div class="col-4 col-s-12 flacwav">
+            <img id="myImg" src="pictures/flacwav.png" class="responimg myImages" alt="FLAC and WAV">
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
         </div>
 
-        <div class="col-4 flacwav">
-            <img src="pictures/wavmp3.png"  class="responimg" >
+              
+        <div class="col-4 col-s-12 flacwav">
+            <img id="myImg" src="pictures/flacmp3.png" class="responimg myImages" alt="FLAC and MP3">
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
         </div>
-         
-    
+
+                      
+        <div class="col-4 col-s-12 flacwav">
+            <img id="myImg" src="pictures/wavmp3.png" class="responimg myImages" alt="FLAC and MP3">
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+        </div>
   
     </div>
     <div class="row2">
@@ -45,7 +62,7 @@
         <p class="footertext2">Max Ignatius IT-18</p>
     </div>
 
-
+<script src="javascript.js"></script> 
     
 </body>
 </html>
