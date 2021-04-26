@@ -20,7 +20,9 @@ html {
 
   }
 
-
+.tim {
+    padding-top: 8px;
+}
 
 .row1 {
     display: flex;
