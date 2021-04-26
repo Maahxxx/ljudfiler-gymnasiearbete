@@ -28,6 +28,12 @@ html {
     display: flex;
 }
 
+a{
+    display: block;
+    text-align: center;
+
+}
+
 .responimg {
     flex:33.3%;
     padding: 5px;
@@ -58,8 +64,6 @@ html {
 .downloadlink {
     text-decoration: none;
     color: white;
-    width: 30vh;
-    height: 5vh;
     font-family: 'Open Sans', sans-serif;
 }
 
