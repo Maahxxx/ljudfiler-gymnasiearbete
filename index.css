@@ -1,0 +1,28 @@
+#downloadbutton1 {
+    width: 30vh;
+    height: 5vh;
+    background-color: black;
+    border: none;
+    border-radius: 1px;
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+}
+
+
+#downloadlink {
+    text-decoration: none;
+    color: white;
+}
+
+#rapport{
+    height: 15vh;
+    width: 30vh;
+    border: 1px solid red;
+}
+
+
+#laddaner {
+    color: black;
+    font-size: 24px;
+}
