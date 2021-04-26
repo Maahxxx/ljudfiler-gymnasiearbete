@@ -9,16 +9,18 @@ body {
   
 
 html {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
   .header {
     background-color:#D93D59;
     color: white;
     padding: 15px;
+    text-align: center;
+
   }
 
-  
+
 
 .row1 {
     display: flex;
@@ -56,7 +58,7 @@ html {
     color: white;
     width: 30vh;
     height: 5vh;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -70,7 +72,9 @@ html {
 .laddaner {
     color: black;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10px;
+
 }
 
 .footer {
